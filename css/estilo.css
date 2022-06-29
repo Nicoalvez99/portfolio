@@ -1,0 +1,263 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.body-proyectos {
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: cover;
+}
+
+#contacto {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+}
+#inicio {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+}
+#inicio img {
+    height: 400px;
+}
+#inicio img:hover {
+    height: 410px;
+}
+#sobre-mi {
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: cover;
+}
+.bienvenida {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+.bienvenida p {
+    font-size: 17px;
+}
+.botonInicio a:hover {
+    background-color: rgb(3, 3, 51);
+    color: #fff;
+}
+.botonInicio a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 70px;
+}
+.cv {
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 50px;
+    right: 50px;
+    color: #fff;
+}
+.cv a {
+    color:#fff;
+}
+#sobre-mi .cv {
+    background-color: #fff;
+    color: red;
+    border-radius: 20px;
+}
+.cvDos {
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#sobre-mi .logo {
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 20px;
+}
+.foto {
+    width: 300px;
+    height: 300px;
+    background-image: url("../images/nicofoto.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+main {
+    min-height: 530px;
+}
+h1 {
+    color: red;
+}
+.btn {
+    background-color: white;
+    color: #000;
+    border: 0px;
+}
+footer {
+    color: white
+}
+footer a {
+    color: white;
+}
+footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-whatsapp {
+    position: fixed;
+    right: 100px;
+    bottom: 0px;
+    background-color: indigo;
+    font-size: 30px;
+    padding: 15px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.nav-item {
+    margin: 0px 20px;
+    padding: 0px;
+}
+.active {
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.proyecto-div {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #555;
+    border-radius: 10px;
+}
+.margen-abajo {
+    margin-bottom: 80px;
+}
+
+.proyecto-div h3 {
+    font-size: 20px;
+    padding: 10px 5px;
+    background-color: red;
+    color: #fff;
+}
+.proyecto-div p {
+    padding: 5px;
+    font-size: 15px;
+}
+.color-boton {
+    border: none;
+    border-radius: 80px;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.boton-color {
+    border: none;
+    background-color: #fff;
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.enFooter {
+    padding: 30px 0px;
+}
+.enFooter a {
+    color: red;
+}
+.enFooter a i {
+    color: red;
+}
+.enFooter .fa-whatsapp{
+    color:#fff
+}
+
+.tecnologias {
+    background-color: rgba(160, 7, 7, 0.986);
+    width: 100vh;
+    height: 80vh;
+}
+.tecnologias h4 {
+    color:#fff;
+}
+.contenedor-idi {
+    width: 100%;
+    height: 250px;
+    background-color: #eee;
+}
+.idiomasyhobbies {
+    display: flex;
+    width: 550px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 80px;
+    padding-left: 0px;
+}
+.idiomasyhobbies i {
+    font-size: 90px;
+    color: #fff;
+    padding: 20px;
+    background-color: rgb(68, 20, 112);
+    border-radius: 10px;
+
+}
+.idiomasyhobbies p, ul li {
+    margin-left: 20px;
+}
+.idiomasyhobbies ul {
+    padding-left: 0px;
+}
+.idiomasyhobbies ul li {
+    list-style: none;
+}
+.contenedor-work {
+    width: 100%;
+    height: 50vh;
+    background-color: #fff;
+}
+.contenedor-work i, h4 {
+    color: rgb(68, 20, 112);
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.contenedor-work i {
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+@media (max-width: 750px){
+    .body-proyectos {
+        background-image: url("../images/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .proyecto-div {
+        width: 100%;
+        height: 400px;
+        background-color: #fff;
+        box-shadow: 0.5px 1px 10px #555;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .idiomasyhobbies {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+    .contenedor-idi {
+        height: 80vh;
+    }
+}
