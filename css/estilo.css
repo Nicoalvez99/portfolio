@@ -186,7 +186,7 @@ footer .fa-whatsapp {
 .tecnologias {
     background-color: rgba(160, 7, 7, 0.986);
     width: 100vh;
-    height: 80vh;
+    height: 100vh;
 }
 .tecnologias h4 {
     color:#fff;
@@ -251,6 +251,14 @@ footer .fa-whatsapp {
         box-shadow: 0.5px 1px 10px #555;
         border-radius: 10px;
         margin-bottom: 30px;
+    }
+    #sobre-mi {
+        background-image: url("../images/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .tecnologias {
+        height: 240vh;
     }
     .idiomasyhobbies {
         margin-left: 5px;
