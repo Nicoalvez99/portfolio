@@ -22,6 +22,7 @@ body {
 }
 #sobre-mi {
     background-image: url("../images/fondo-proyectos.png");
+    background-position: center;
     background-size: cover;
 }
 .bienvenida {
@@ -186,9 +187,21 @@ footer .fa-whatsapp {
 .tecnologias {
     background-color: rgba(160, 7, 7, 0.986);
     width: 100vh;
-    height: 100vh;
+    height: 80vh;
 }
-.tecnologias h4 {
+.tecnologias .tech {
+    background-color: #fff;
+    border-radius: 10px;
+}
+.tecnologias .tech h4 {
+    color: black;
+    font-size: 13px;
+    margin: 0;
+}
+.tecnologias img {
+    height: 60px;
+}
+.tecnologias h3 {
     color:#fff;
 }
 .contenedor-idi {
@@ -252,11 +265,7 @@ footer .fa-whatsapp {
         border-radius: 10px;
         margin-bottom: 30px;
     }
-    #sobre-mi {
-        background-image: url("../images/fondo-proyectos.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
+    
     .tecnologias {
         height: 240vh;
     }
