@@ -16,9 +16,11 @@ body {
 }
 #inicio img {
     height: 400px;
+    padding: 20px;
 }
 #inicio img:hover {
-    height: 410px;
+    padding: 0px;
+    transition: .5s;
 }
 #sobre-mi {
     background-image: url("../images/fondo-proyectos.png");
@@ -292,6 +294,14 @@ footer .fa-whatsapp {
         border-radius: 10px;
         margin-bottom: 30px;
     }
+    #inicio {
+        background-image: url("../images/fondo-contacto.png");
+        background-position: bottom;
+    }
+    #inicio img {
+        height: 300px;
+        padding: 20px;
+    }
     #sobre-mi {
         background-image: url("../images/fondo-proyectos.png");
         background-size: contain;
@@ -315,6 +325,9 @@ footer .fa-whatsapp {
         height: 200vh;
     }
     .bienvenida {
-        font-size: 15px;
+        font-size: 12px;
+    }
+    .bienvenidaDiv {
+        margin: 0;
     }
 }
