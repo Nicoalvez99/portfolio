@@ -1,3 +1,6 @@
+<?php
+  $pg = "sobre-mi";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -26,7 +29,7 @@
           <p>Estudiante de programación full stack, amante de los proyectos y sistemas para crear nuevas soluciones.</p>
           <div class="row">
             <div class="col-12 my-5">
-              <a href="contacto.html" class="botonMensaje py-2 px-1">Enviar mensaje</a>
+              <a href="contacto.php" class="botonMensaje py-2 px-1">Enviar mensaje</a>
             </div>
           </div>
         </div>

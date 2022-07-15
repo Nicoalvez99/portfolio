@@ -1,3 +1,6 @@
+<?php
+  $pg = "inicio";
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -27,7 +30,7 @@
             <span class="p-2 my-5 bienvenida">Bienvenido a mi sitio sobre desarrollo full stack.</span>
           </div>
           <div class="col-12 botonInicio mx-auto mb-5 text-center">
-            <a href="proyectos.html">Conocé mis proyectos</a>
+            <a href="proyectos.php">Conocé mis proyectos</a>
           </div>
       </div>
 
