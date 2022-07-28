@@ -1,5 +1,33 @@
 <?php
   $pg = "contacto";
+  
+
+  if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $telefono = $_POST["txtTel"];
+    $correo = $_POST["txtCorreo"];
+    $mensaje = $_POST["txtMensaje"];
+
+    $para = "nicoalvez99@gmail.com";
+    $titulo = "Recibiste un mensaje del Portfolio";
+
+    $cuerpo = "
+    Nombre: $nombre <br>
+    Correo: $correo <br>
+    Telefono: $telefono <br>
+    Mensaje: $mensaje  
+    ";
+
+    $cabeceras = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+    $cabeceras .= 'To: nicoalvez99@gmail.com' . "\r\n";
+    //$cabeceras .= ''
+
+    //mail($para, $titulo, $cuerpo, $cabeceras);
+    header("Location: confirmacion-envio.php");
+  }
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
